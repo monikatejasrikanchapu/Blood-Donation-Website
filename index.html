@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+    <!--NavBar-->
+    <nav class="navbar">
+        <div class="left">
+            <h1>Donor2Needer</h1>
+        </div>
+        <div class="right">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkBtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list">
+                <li><a href="miniproject.html">Home</a></li>
+                <li><a href="index.html">Register</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#face">Contact Us</a></li>
+                <li><a href="search.html">search Donar</a></li>
+            </ul>
+        </div>
+    </nav>
+<body>
+    <!----------------------------------Register Form----------------------------------------------->
+    <div class="container">
+        <div class="form">
+            <div class="btn">
+                <button class="signUpBtn">Register</button>
+                <button class="loginBtn">Login</button>
+            </div>
+            <form class="signUp" action="project.php" method="POST">
+                <div class="formg">
+                    <input type="text"  placeholder="First Name" autocomplete="off" name="fname">
+                </div>
+                <div class="formg">
+                    <input type="text"  placeholder="Address" autocomplete="off" name="addres">              
+                </div>
+                <div class="formg">
+                    <input type="text"  placeholder="Age" autocomplete="off" name="age">                               
+                </div>
+                <div class="formg">
+                    <input type="text"  placeholder="Blood Group" autocomplete="off" name="blood">                                                  
+                </div>
+                <div class="formg">
+                    <input type="text"  placeholder="phone number" autocomplete="off" name="phone">                                                  
+                </div>
+                <!-- <div class="checkBox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span class="text">Will you be able to donate your blood in future</span>
+                </div> -->
+                <div class="formg">
+                    <button type="submit" class="btn2" name="register">Register</button>
+                </div>
+            </form>
+    
+</body>
+</html>
