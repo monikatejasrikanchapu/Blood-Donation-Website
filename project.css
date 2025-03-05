@@ -1,0 +1,143 @@
+
+
+#pic{
+background-image:url("https://www.boldsky.com/img/2019/06/coverimage-1560506241.jpg");
+filter:blur(0.5);
+
+background-repeat:no-repeat;
+background-size:100% 90%;
+margin-top:75px;
+}
+#pic{
+  height:500px;
+}
+
+
+
+*{padding:0;
+text-decoration:none;}
+.navbar{
+  position:fixed;
+  overflow: hidden;
+  height:10%;
+  width:100%;
+  top:0;
+}
+.navbar {
+  background-color: rgb(22, 7, 36);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 5rem;
+}
+.right ul {
+  display: flex;
+  list-style: none;
+}
+
+.right ul li a {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.right ul li a:hover {
+  background-color: #fff;
+  border-radius: 15px;
+  color: rgb(22, 7, 36);
+}
+
+.arrow{float:right;
+margin-top:200px;
+height:10%;
+width:6%;}
+#benefits{
+border:3px solid black;}
+   h1{
+color:red;
+font-size:50px;
+display:flex;
+ align-items: center;
+  justify-content: center;}
+
+
+.box2{
+  border:2px solid grey;
+  padding:20px;
+  width:20%;
+  height:40%;
+  float:left;
+  margin:20px;
+}
+.box-container{
+  margin-left:200px;
+  margin-right:200px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.box.box-container.box2{
+  padding:2rem;
+  text-align:center;
+  box-shadow:10px 2px 10px #555;;
+  
+}
+.con{
+float:left;
+color:black;
+}
+hr{
+  border-width:10px;
+  border:2px solid grey;
+  width:100%;
+
+}
+.box2{
+  box-shadow:5px 5px  5px 5px #979A9A ;
+
+}
+.help p {
+margin-left:100px;
+margin-right:50px;
+font-size:20px; 
+}
+.help2{
+  border:2px solid grey;
+  background-color:#ECF0F1  ;
+  width:100%;
+  margin: 25px 50px 75px;
+}.help{
+  margin-left:100px;
+  margin-right:100px;}
+
+ #bottom{
+  background-color:black;
+  height:30%;
+ }
+ #bottom{
+  display:flex;
+  gap:3rem;
+  justify-content:space-between;
+
+ }
+ #bottom .bottom1{
+  flex:1 1 30rem;
+ }
+ #bottom .bottom1 a{margin-top:30px;
+  display:block;
+ }
+ 
+ 
+ #bottom .bottom1 a span{
+  color:white;
+  font-size:20px;
+ }
+ #bottom .bottom1 :firsr-child{
+  margin-left:1 rem;
+ }
+ #bottom .bottom1 :firsr-child{
+  margin-right:100px;
+ }
